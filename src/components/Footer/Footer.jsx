@@ -43,12 +43,8 @@ const Footer = () => {
                       y2="59.7985"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#2DD4BF" />
-                      <stop
-                        offset="1"
-                        stop-color="#7217F6"
-                        stop-opacity="0.8"
-                      />
+                      <stop stopColor="#2DD4BF" />
+                      <stop offset="1" stopColor="#7217F6" stopOpacity="0.8" />
                     </linearGradient>
                     <linearGradient
                       id="paint1_linear_808_7799"
@@ -58,12 +54,8 @@ const Footer = () => {
                       y2="56.9204"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#2DD4BF" />
-                      <stop
-                        offset="1"
-                        stop-color="#7217F6"
-                        stop-opacity="0.8"
-                      />
+                      <stop stopColor="#2DD4BF" />
+                      <stop offset="1" stopColor="#7217F6" stopOpacity="0.8" />
                     </linearGradient>
                   </defs>
                 </svg>

@@ -54,11 +54,11 @@ export default function Hero() {
                         y2="59.7985"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#2DD4BF" />
+                        <stop stopColor="#2DD4BF" />
                         <stop
                           offset="1"
-                          stop-color="#7217F6"
-                          stop-opacity="0.8"
+                          stopColor="#7217F6"
+                          stopOpacity="0.8"
                         />
                       </linearGradient>
                       <linearGradient
@@ -69,11 +69,11 @@ export default function Hero() {
                         y2="56.9204"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="#2DD4BF" />
+                        <stop stopColor="#2DD4BF" />
                         <stop
                           offset="1"
-                          stop-color="#7217F6"
-                          stop-opacity="0.8"
+                          stopColor="#7217F6"
+                          stopOpacity="0.8"
                         />
                       </linearGradient>
                     </defs>

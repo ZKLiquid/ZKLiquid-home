@@ -1,24 +1,17 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Hero from "./components/hero/Hero";
-import Integration from "./components/Integration/Integration";
-import Validator from "./components/Validator/Validator";
-import Footer from "./components/Footer/Footer";
-import Coming from "./components/ComingSoon/Coming";
+import AppHome from "./AppHome";
+import Video from "./components/Integration/video/Video";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
-    // <div className="bg-[#04131F] text-gray-100">
-    <div className="bg-black text-gray-100">
-      <Hero />
-      <Validator />
-      <Integration />
-      <Footer />
-      {/* <Coming /> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<AppHome />} />
+        <Route path="/video" element={<Video />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
