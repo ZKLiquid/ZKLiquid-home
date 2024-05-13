@@ -14,17 +14,16 @@ export default function Validator() {
           </div>
 
           <div className="text-center lg:text-left">
-            <h2 className="text-4xl font-bold text-teal-400 font-pj">
+            <h2 className="text-4xl font-bold text-teal-500 font-pj">
               Become a Network Validator
             </h2>
             <p className="mt-6 text-base text-gray-100">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
+              Run a validator node on ZKLiquid to participate in blockchain data
+              syncing between different blockchains
             </p>
 
             <a
-              href="#"
+              href="https://docs.zkliquid.io/"
               title=""
               className="
                                     inline-flex
@@ -39,7 +38,7 @@ export default function Validator() {
                                     text-black
                                     transition-all
                                     duration-200
-                                    bg-teal-400
+                                    bg-teal-500
                                     border border-transparent
                                     sm:w-auto sm:py-3
                                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
@@ -48,6 +47,7 @@ export default function Validator() {
                                     rounded-xl
                                 "
               role="button"
+              target="_blank"
             >
               {" "}
               Deploy Validator Node

@@ -11,12 +11,12 @@ function App() {
 
   return (
     // <div className="bg-[#04131F] text-gray-100">
-    <div className="bg-[#04131F] text-gray-100">
-      {/* <Hero />
+    <div className="bg-black text-gray-100">
+      <Hero />
       <Validator />
       <Integration />
-      <Footer /> */}
-      <Coming />
+      <Footer />
+      {/* <Coming /> */}
     </div>
   );
 }

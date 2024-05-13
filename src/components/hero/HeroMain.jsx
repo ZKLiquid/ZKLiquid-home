@@ -3,7 +3,7 @@ export default function HeroMain() {
     <section className="py-12  sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-teal-400 font-pj">
+          <h2 className="text-4xl font-bold text-teal-500 font-pj">
             Liquidity & Inter-Chain Messaging
           </h2>
           <p className="max-w-md mx-auto mt-5 text-base font-normal text-gray-100 font-pj">
@@ -48,7 +48,7 @@ export default function HeroMain() {
                                     text-black
                                     transition-all
                                     duration-200
-                                    bg-teal-400
+                                    bg-teal-500
                                     border border-transparent
                                     sm:w-auto sm:py-3
                                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
@@ -73,7 +73,7 @@ export default function HeroMain() {
                                     text-black
                                     transition-all
                                     duration-200
-                                    bg-teal-400
+                                    bg-teal-500
                                     border border-transparent
                                     sm:w-auto sm:py-3
                                     focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900

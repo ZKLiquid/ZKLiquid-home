@@ -4,14 +4,14 @@ export default function SocialMedia() {
     <ul className="flex items-center justify-center mt-8 space-x-3 sm:mt-12 lg:justify-end lg:mt-0">
       <li>
         <a
-          href="https://twitter.com/audaxious3"
+          href="https://twitter.com/ZKLiquid"
           target="_blank"
           title="twitter"
           className="inline-flex items-center justify-center w-10 h-10 text-gray-900 transition-all duration-200 rounded-full bg-black  "
           rel="noopener noreferrer"
         >
           <svg
-            className="w-6 h-6 text-[#1DA1F2] "
+            className="w-6 h-6 text-teal-500 "
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
@@ -23,7 +23,7 @@ export default function SocialMedia() {
 
       <li>
         <a
-          href="https://t.me/audaxious"
+          href="https://t.me/zkliquid"
           target="_blank"
           title="telegram"
           className="inline-flex items-center justify-center w-10 h-10 text-gray-900 transition-all duration-200 rounded-full bg-black  "
@@ -31,7 +31,7 @@ export default function SocialMedia() {
         >
           <svg
             viewBox="0 0 16 16"
-            className=" text-[#0088cc]  h-[20px] "
+            className=" text-teal-500  h-[20px] "
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -55,7 +55,7 @@ export default function SocialMedia() {
         </a>
       </li>
 
-      <li>
+      {/* <li>
         <a
           href="https://discord.gg/MAXzr3Za"
           target="_blank"
@@ -75,18 +75,18 @@ export default function SocialMedia() {
             />
           </svg>
         </a>
-      </li>
+      </li> */}
 
       <li>
         <a
-          href="https://github.com/audaxious"
+          href="https://github.com/zkliquid"
           target="_blank"
           title="github"
           className="inline-flex items-center justify-center w-10 h-10 text-gray-900 transition-all duration-200 rounded-full bg-black"
           rel="noopener noreferrer"
         >
           <svg
-            className="w-6 h-6 text-gray-100 "
+            className="w-6 h-6 text-teal-500 "
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
