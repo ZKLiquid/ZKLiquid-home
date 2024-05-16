@@ -1,4 +1,18 @@
+import { useState } from "react";
+import { ConnectWallet } from "../../config/soroban-config";
+import { requestAccess, setAllowed } from "@stellar/freighter-api";
+
 export default function HeroMain() {
+  const [connectedAccount, setConnectedAccount] = useState("");
+  const [selectedNetwork, setSelectedNetwork] = useState("");
+  const [connecting, setConnecting] = useState(false);
+
+  async function handleConnect() {
+    setConnecting(() => true);
+
+    await ConnectWallet(setConnectedAccount, setSelectedNetwork);
+    setConnecting(() => false);
+  }
   return (
     <section className="py-12  sm:py-16 lg:py-20">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -23,7 +37,7 @@ export default function HeroMain() {
             ></div> */}
           </div>
 
-          <form action="#" method="POST" className="relative">
+          <div className="relative">
             <input
               type="email"
               name=""
@@ -51,16 +65,18 @@ export default function HeroMain() {
                                     bg-teal-500
                                     border border-transparent
                                     sm:w-auto sm:py-3
-                                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
                                     font-pj
                                     hover:bg-opacity-90
                                     rounded-l-xl
+                                    transform 
+                                    hover:translate-y-[-2px]
                                 "
               >
                 Zk-EVM
               </button>
               <button
-                type="submit"
+                // type="submit"
+                onClick={handleConnect}
                 className="
                                     inline-flex
                                     items-center
@@ -75,17 +91,18 @@ export default function HeroMain() {
                                     duration-200
                                     bg-teal-500
                                     border border-transparent
-                                    sm:w-auto sm:py-3
-                                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900
+                                    sm:w-[185px] sm:py-3
+                                    
                                     font-pj
                                     hover:bg-opacity-90
                                     rounded-r-xl
-                                "
+                                    transform 
+                                    hover:translate-y-[-2px]"
               >
-                Connect Wallet
+                {connectedAccount.length === 0 ? "Connect Wallet" : "Deposit"}
               </button>
             </div>
-          </form>
+          </div>
         </div>
 
         <p className="mt-6 text-sm font-normal text-center text-gray-400 font-pj">
