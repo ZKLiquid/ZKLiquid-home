@@ -72,7 +72,8 @@ export default function HeroMain() {
                                     hover:translate-y-[-2px]
                                 "
               >
-                Zk-EVM
+                {/* Zk-EVM */}
+                XLM
               </button>
               <button
                 // type="submit"
@@ -106,7 +107,9 @@ export default function HeroMain() {
         </div>
 
         <p className="mt-6 text-sm font-normal text-center text-gray-400 font-pj">
-          Participate in ZKLiquid by deligating USDT on supported networks
+          {/* Participate in ZKLiquid by deligating USDT on supported networks.
+           */}
+          Participate in ZKLiquid on Soroban by depositing stable coins.
         </p>
       </div>
     </section>
